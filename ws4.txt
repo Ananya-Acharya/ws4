@@ -1,0 +1,94 @@
+Script started on 2022-09-26 20:55:55-04:00
+]0;ananya@sjsu:~[ananya@sjsu ~]$ vi .bashrc
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H".bashrc" 19L, 377C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[34m# .bashrc
+
+# Source global definitions[m
+[33mif [[m [33m-f[m /etc/bashrc [33m];[m [33mthen
+        . [m/etc/bashrc
+[33mfi[m
+
+[34m# User specific environment[m
+[33mif ![m [35m[[[m [33m"[m[35m$PATH[m[33m"[m [33m=~[m [33m"[m[35m$HOME[m[31m/.local/bin:[m[35m$HOME[m[31m/bin:[m[33m"[m [35m]][m
+[33mthen[m
+    [35mPATH[m[33m="[m[35m$HOME[m[31m/.local/bin:[m[35m$HOME[m[31m/bin:[m[35m$PATH[m[33m"
+fi
+export[m[36m PATH[m
+
+[34m# Uncomment the following line if you don't like systemctl's auto-paging feature:
+# export SYSTEMD_PAGER=
+
+# User specific aliases and functions[m
+
+[1m[34m~                                                                                                                                        [21;1H~                                                                                                                                        [22;1H~                                                                                                                                        [23;1H~                                                                                                                                        [m[24;120H19,0-1[8CAll[19;1H[?25h[?25l[24;110Ho[19;1H[24;110H [20;1H[24;1H[1m-- INSERT --[m[24;13H[K[24;120H20,1[10CAll[20;1H[K[20;1H[?25h[?25la[24;123H2[20;2H[?25h[?25ll[24;123H3[20;3H[?25h[?25li[24;123H4[20;4H[?25h[?25la[24;123H5[20;5H[?25h[?25l[33malias[m[24;123H6[20;6H[?25h[?25l[24;123H7[20;7H[?25h[?25ll[24;123H8[20;8H[?25h[?25l[24;123H9[20;9H[?25h[?25l[33m=[m[24;123H10[20;10H[?25h[?25l[24;124H1[20;11H[?25h[?25l[24;124H0[20;10H[?25h[?25l[20;9H[K[24;123H9 [20;9H[?25h[?25l[24;123H8[20;8H[?25h[?25l[36ml[m=[24;123H9[20;9H[?25h[?25l[33m'[m[24;123H10[20;10H[?25h[?25l[31ml[m[24;124H1[20;11H[?25h[?25l[31ms[m[24;124H2[20;12H[?25h[?25l[31m [m[24;124H3[20;13H[?25h[?25l[31m-[m[24;124H4[20;14H[?25h[?25l[31ml[m[24;124H5[20;15H[?25h[?25l[31ma[m[24;124H6[20;16H[?25h[?25l[31mt[m[24;124H7[20;17H[?25h[?25l[31mr[m[24;124H8[20;18H[?25h[?25l[33m'[m[24;124H9[20;19H[?25h[?25l[21;1H[K[24;121H1,1 [21;1H[?25h[?25la[24;123H2[21;2H[?25h[?25ll[24;123H3[21;3H[?25h[?25li[24;123H4[21;4H[?25h[?25la[24;123H5[21;5H[?25h[?25l[33malias[m[24;123H6[21;6H[?25h[?25l[24;123H7[21;7H[?25h[?25lw[24;123H8[21;8H[?25h[?25l[36mw[m=[24;123H9[21;9H[?25h[?25l[33m'[m[24;123H10[21;10H[?25h[?25l[31ml[m[24;124H1[21;11H[?25h[?25l[31ms[m[24;124H2[21;12H[?25h[?25l[31m [m[24;124H3[21;13H[?25h[?25l[31m-[m[24;124H4[21;14H[?25h[?25l[31ml[m[24;124H5[21;15H[?25h[?25l[31ma[m[24;124H6[21;16H[?25h[?25l[31m [m[24;124H7[21;17H[?25h[?25l[31m|[m[24;124H8[21;18H[?25h[?25l[31m [m[24;124H9[21;19H[?25h[?25l[31mw[m[24;123H20[21;20H[?25h[?25l[31mc[m[24;124H1[21;21H[?25h[?25l[33m'[m[24;124H2[21;22H[?25h[24;1H[K[21;21H[?25l[24;110H^[[21;21H[24;110H  [21;22H[24;120H21,21[9CAll[21;21H[?25h[?25l[24;110HZ[21;21H[?25h[?25l[24;111HZ[21;21H[?2004l
+
+
+".bashrc"[24;110H[K[24;11H21L, 418C written
+[?2004l[?1l>[?25h[?1049l[23;0;0t]0;ananya@sjsu:~[ananya@sjsu ~]$ cd ws4
+]0;ananya@sjsu:~/ws4[ananya@sjsu ws4]$ mkdir CUSTOMERS
+]0;ananya@sjsu:~/ws4[ananya@sjsu ws4]$ mkdir PRODUCTS
+]0;ananya@sjsu:~/ws4[ananya@sjsu ws4]$ cut [10P(arg: 1)[C[C[C[C[C[1@-[C[C[C[C[C[C[C[9@[ananya@sjsu ws4]$[C[C[C[C[C 2,9 [K[K[K[K[K-f 2,9 amazon.tsv > revieww[Ks.tsv
+]0;ananya@sjsu:~/ws4[ananya@sjsu ws4]$ grep -P '20722084\t' reviews.tsv > CUSTOMERS/20722084.txt
+]0;ananya@sjsu:~/ws4[ananya@sjsu ws4]$ grep -P '37376087\t' reviews.tsv > CUSTOMERS/37376087.txt
+]0;ananya@sjsu:~/ws4[ananya@sjsu ws4]$ grep -P '41549714\t' reviews.tsv > CUSTOMERS/41549714.txt
+]0;ananya@sjsu:~/ws4[ananya@sjsu ws4]$ rm reviews.tsv
+]0;ananya@sjsu:~/ws4[ananya@sjsu ws4]$ cut -f 4,9 amazon.tsv > reviews.tsv
+]0;ananya@sjsu:~/ws4[ananya@sjsu ws4]$ grep =p[K[K-P '0345340426\t' reviews.tsv > PRODUCTS/0345340426.txt
+]0;ananya@sjsu:~/ws4[ananya@sjsu ws4]$ grep -P '0373271026\t' reviews.tsv > PRODUCTS/0373271026.txt
+]0;ananya@sjsu:~/ws4[ananya@sjsu ws4]$ grep -P '0446608653\t' reviews.tsv > PRODUCTS/0446608653.txt
+]0;ananya@sjsu:~/ws4[ananya@sjsu ws4]$ history > cmds.log
+]0;ananya@sjsu:~/ws4[ananya@sjsu ws4]$ head CUSTOMERS/20722084.txt 
+20722084	1
+20722084	2
+20722084	2
+20722084	2
+20722084	16
+]0;ananya@sjsu:~/ws4[ananya@sjsu ws4]$ head CUSTOMERS/37376087.txt 
+37376087	27
+37376087	2
+37376087	10
+37376087	3
+37376087	5
+37376087	10
+37376087	3
+37376087	1
+37376087	6
+37376087	4
+]0;ananya@sjsu:~/ws4[ananya@sjsu ws4]$ head PRODUCTS/03
+0345340426.txt  0373271026.txt  
+[ananya@sjsu ws4]$ head PRODUCTS/0345340426.txt 
+0345340426	1
+0345340426	7
+0345340426	0
+0345340426	2
+0345340426	5
+0345340426	1
+0345340426	1
+0345340426	12
+0345340426	9
+0345340426	4
+]0;ananya@sjsu:~/ws4[ananya@sjsu ws4]$ exit
+
+Script done on 2022-09-26 21:05:18-04:00
+Script started on 2022-09-28 02:02:00-04:00
+]0;ananya@sjsu:~[ananya@sjsu ~]$ cd ws4
+]0;ananya@sjsu:~/ws4[ananya@sjsu ws4]$ awk 'BEGIN{s=0;}{s+=$2;}END{print s/NR;}' CUSTOMERS/20722084.ttxt
+4.6
+]0;ananya@sjsu:~/ws4[ananya@sjsu ws4]$ awk 'BEGIN{s=0;}{s+=$2;}END{print s/NR;}' CUSTOMERS/37376087.ttxt
+9.1875
+]0;ananya@sjsu:~/ws4[ananya@sjsu ws4]$ awk 'BEGIN{s=0;}{s+=$2;}END{print s/NR;}' CUSTOMERS/41549714.ttxt
+10.0729
+]0;ananya@sjsu:~/ws4[ananya@sjsu ws4]$ awk 'BEGIN{s=0;}{s+=$2;}END{print s/NR;}' PRODUCTS /03453404266.txt
+awk: cmd. line:1: warning: command line argument `PRODUCTS' is a directory: skipped
+awk: cmd. line:1: fatal: cannot open file `/0345340426.txt' for reading (No such file or directory)
+]0;ananya@sjsu:~/ws4[ananya@sjsu ws4]$ ls PRODUCTS/
+0345340426.txt  0373271026.txt  0446608653.txt
+]0;ananya@sjsu:~/ws4[ananya@sjsu ws4]$ awk 'BEGIN{s=0;}{s+=$2;}END{print s/NR;}' PRODUCTS/0345340426..txt
+7.47495
+]0;ananya@sjsu:~/ws4[ananya@sjsu ws4]$ awk 'BEGIN{s=0;}{s+=$2;}END{print s/NR;}' PRODUCTS/0373271026..txt
+2.55556
+]0;ananya@sjsu:~/ws4[ananya@sjsu ws4]$ awk 'BEGIN{s=0;}{s+=$2;}END{print s/NR;}' PRODUCTS/0446608653..txt 
+4.02857
+]0;ananya@sjsu:~/ws4[ananya@sjsu ws4]$ HIS[K[K[Khistory > cmds_2.log
+]0;ananya@sjsu:~/ws4[ananya@sjsu ws4]$ exit
+
+Script done on 2022-09-28 02:06:53-04:00

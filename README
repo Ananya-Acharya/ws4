@@ -1,0 +1,25 @@
+
+General
+-------
+I did ws4 in two sessions. I saved the first session as ws4.txt and second 
+session as ws4_2.txt, and then appended ws4_2.txt to ws4.txt.
+I did the same thing with the cmds.log file. Also edited the history in the
+cmds.log file to keep only commands relevant to this worksheet.
+
+Response to ws4 question
+------------------------
+The mean helpfulness value was printed on screen using the awk commands. 
+They are as follows:
+CUSTOMERS/20722084.txt	4.6
+CUSTOMERS/37376087.txt	9.1875
+CUSTOMERS/41549714.txt	10.0729
+
+PRODUCTS/0345340426.txt	7.47495
+PRODUCTS/0373271026.txt	2.55556
+PRODUCTS/0446608653.txt	4.02857
+
+Helpfulness value can differ significantly between different customers
+and different products. Different customers will have different tastes and also
+different expectations. Similarly different products will be used for different
+functions so the rating that customers give will be reflection of the 
+customers' experience with the product.

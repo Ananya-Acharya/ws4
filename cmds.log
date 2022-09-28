@@ -1,0 +1,25 @@
+ 1000  script ws4.txt
+ 1001  vi .bashrc
+ 1002  cd ws4
+ 1003  mkdir CUSTOMERS
+ 1004  mkdir PRODUCTS
+ 1005  cut -f 2,9 amazon.tsv > reviews.tsv
+ 1006  grep -P '20722084\t' reviews.tsv > CUSTOMERS/20722084.txt
+ 1007  grep -P '37376087\t' reviews.tsv > CUSTOMERS/37376087.txt
+ 1008  grep -P '41549714\t' reviews.tsv > CUSTOMERS/41549714.txt
+ 1009  rm reviews.tsv
+ 1010  cut -f 4,9 amazon.tsv > reviews.tsv
+ 1011  grep -P '0345340426\t' reviews.tsv > PRODUCTS/0345340426.txt
+ 1012  grep -P '0373271026\t' reviews.tsv > PRODUCTS/0373271026.txt
+ 1013  grep -P '0446608653\t' reviews.tsv > PRODUCTS/0446608653.txt
+ 1014  history > cmds.log
+ 1001  cd ws4
+ 1002  awk 'BEGIN{s=0;}{s+=$2;}END{print s/NR;}' CUSTOMERS/20722084.txt
+ 1003  awk 'BEGIN{s=0;}{s+=$2;}END{print s/NR;}' CUSTOMERS/37376087.txt
+ 1004  awk 'BEGIN{s=0;}{s+=$2;}END{print s/NR;}' CUSTOMERS/41549714.txt
+ 1005  awk 'BEGIN{s=0;}{s+=$2;}END{print s/NR;}' PRODUCTS /0345340426.txt
+ 1006  ls PRODUCTS/
+ 1007  awk 'BEGIN{s=0;}{s+=$2;}END{print s/NR;}' PRODUCTS/0345340426.txt
+ 1008  awk 'BEGIN{s=0;}{s+=$2;}END{print s/NR;}' PRODUCTS/0373271026.txt
+ 1009  awk 'BEGIN{s=0;}{s+=$2;}END{print s/NR;}' PRODUCTS/0446608653.txt 
+ 1010  history > cmds_2.log
